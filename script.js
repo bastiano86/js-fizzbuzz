@@ -1,5 +1,4 @@
-let numeri
-
-for (let i = 0; i < 100; i++) {
-   console.log(numeri);
-  } 
+var i; 
+for (i = 0; i <= 100; i++) {
+  console.log( i); 
+}
