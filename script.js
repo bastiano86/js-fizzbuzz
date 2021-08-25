@@ -5,6 +5,7 @@
 
 
 var i; 
+
 for (i = 1; i <= 100; i++) {
   
         if ((i%3 == 0) && (i%5 == 0)) {
@@ -22,6 +23,7 @@ for (i = 1; i <= 100; i++) {
         else if (i%5 == 0) {
         
         console.log (i + "Buzz");
+        document.getElementById('numbers').innerHTML = (i);
 
         }
     
@@ -30,4 +32,11 @@ for (i = 1; i <= 100; i++) {
         console.log(i);
     }
 
+//    var i = [];
+//    i.push(i); 
+//    document.getElementById('numbers').innerHTML = (i);
+
 };
+
+
+
